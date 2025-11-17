@@ -34,7 +34,7 @@ def plot_prediction_histograms(y_test, y_proba, model_name, target_name, output_
     plt.ylabel("Densidad")
     plt.legend()
 
-    output_path = os.path.join(output_dir, f"{model_name.replace(' ', '_')}_hist.png")
+    output_path = os.path.join(output_dir, f"{model_name.replace(' ', '_')}_{target_name}_hist.png")
     plt.savefig(output_path)
     plt.close()
 
