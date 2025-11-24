@@ -1,6 +1,6 @@
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler 
 
 def train_linear_model(X_train, y_train, class_weight=None):
     """Train a logistic regression model and return the pipeline."""
